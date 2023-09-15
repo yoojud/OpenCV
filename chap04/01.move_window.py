@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-image = np.zeros((200, 400), np.uint8)
+image = np.zeros((200, 400), np.uint8)    # 세, 가
 image[:] = 200                                  # 흰색 바탕
 
 title1, title2 = 'Position1', 'Position2'		# 윈도우 이름
